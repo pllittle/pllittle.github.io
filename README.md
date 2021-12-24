@@ -1,3 +1,4 @@
 # Github Pages
 
-Trying to make a website
+Trying to make a website with Jekyll
+
