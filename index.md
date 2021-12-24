@@ -1,7 +1,3 @@
----
-title: "Homepage"
-description: "Test home page description"
----
 
 [About Me](https://pllittle.github.io/about)
 
