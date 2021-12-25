@@ -14,37 +14,39 @@
 ```Shell
 gem install jekyll bundler
 ```
-3. Initialize github repo named `<github.username>.github.io` and `git clone` to local machine. Then navigate to cloned repo folder.
+3. Initialize Github repo named `<github.username>.github.io` 
+
+4. `git clone` to local machine. Then navigate to cloned repo folder.
 
 ```Shell
 cd <github.username>.github.io
 ```
 
-4. Create Jekyll site within repo folder. [Reference](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+5. Create Jekyll site within repo folder. [Reference](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 
 ```Shell
 jekyll new --skip-bundle .
 ```
 
-5. Follow steps 8 thru 13 to setup the site files. [Reference](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+6. Follow steps 8 thru 13 to setup the site files. [Reference](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 
 ```Shell
 # Ensures all specified dependencies in _config.yml are installed
 bundle install
 ```
 
-6. You can test your site on your local machine before pushing to remote.
+7. You can test your site on your local machine before pushing to remote.
 
 ```Shell
 bundle exec jekyll serve
 ```
 
-   Preview site in browser at `http://localhost:4000`.
+8. Preview site in browser at `http://localhost:4000`.
 
-7. Once you're satisfied, clean the local repo with
+9. Once you're satisfied, clean the local repo with
 
 ```Shell
 bundle exec jekyll clean
 ```
 
-and push to remote.
+10. Git Add/Commit/Push to remote.
