@@ -39,6 +39,12 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Preview site in browser at `http://localhost:4000`.
+   Preview site in browser at `http://localhost:4000`.
 
+7. Once you're satisfied, clean the local repo with
 
+```Shell
+bundle exec jekyll clean
+```
+
+and push to remote.
