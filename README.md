@@ -11,13 +11,19 @@
 
 2. Within your terminal, install **jekyll** and **bundler** gems. [Reference](http://jekyllrb.com/docs/)
 
-```bash
+```Shell
 gem install jekyll bundler
 ```
-3. Initialize github repo named `<github.username>.github.io` and `git clone` to local machine. Then navigate to cloned repo folder.
+3. Initialize github repo named `<github.username>.github.io` and `git clone` to local machine. 
+
+Then navigate to cloned repo folder.
+
+```Shell
+cd <github.username>.github.io
+```
 
 4. Create Jekyll site within repo folder. [Reference](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 
-```bash
+```Shell
 jekyll new --skip-bundle .
 ```
